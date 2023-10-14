@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(0, 93, 104);
+}
+header>img{
+    margin-left: 38%;
+    width: 300px;
+    height: 250px;
+}
+header>h1 {
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    color: white;
+}
+header>p {
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    color: white;
+}
+header>a {
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    color: white;
+}
+a:hover {
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+main {
+    color: white ;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    margin-left: 21px;;
+}
+td,th {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+td {
+    text-align: center;
+  }
+th[scope='col'] {
+    background-color: #00a3a5;
+  }
+fieldset {
+width: 300px;
+margin-left: 20px;;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+

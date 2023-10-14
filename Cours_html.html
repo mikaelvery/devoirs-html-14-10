@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+        <title>HTML WorkingWeek</title>
+</head>
+<body>
+<header>
+    <h1>Devoirs Beweb <s>Weekend</s> du 14.10</h1>
+        <p>Ceci est un <strong>paragraphe</strong>.</p>
+    <a href="https://fondespierre.com/">Acceder à Fondespierre</a>
+        <img src="pngegg.png" alt="image html" />
+</header>
+    <HR ALIGN=CENTER WIDTH="1024">
+<main>
+<!-- liste ordonnée et non ordonée -->
+    <ol>
+    <li>je suis ordonnée</li>
+    <li>je suis ordonnée</li>
+        <ul> 
+            <li>je suis non ordonnée</li>
+            <li>je suis non ordonnée</li>
+        </ul>
+    </ol>
+<!-- tableau avec 2 cellule -->
+    <table> 
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">mail</th>
+        </tr>
+        <tr>
+            <td scope="row">mikael</td>
+            <td>34</td>
+            <td>mikael.very34@gmail.com</td>
+        </tr>    
+    </table><br/>
+<!-- mon formulaire -->
+    <form action="/formulaire.html" method="post">
+        <fieldset>
+            <div>
+                <label for="pseudo">Votre pseudo :</label><br/>
+                    <input type="text" name="pseudo" id="pseudo" /><br/>
+                <label for="password">Votre mot de passe :</label><br/>
+                    <input type="text" name="password" id="password" /><br/>
+            </div>
+            <div>   
+                <label for="textarea">que pouvons nous ameliorer ?</label><br/>
+                    <textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea><br/>
+            </div>
+            <div>
+                <legend>qu'avez vous fait ce week end ?</legend>
+                    <label for="checkbox">l'apero</label>
+                            <input type="checkbox" name="checkbox" id="checkbox"/><br/>
+                     <label for="checkbox">mes devoirs</label>
+                        <input type="checkbox" name="checkbox" id="checkbox"/><br/>
+            </div>
+            <div>            
+                <button type="envoyer">envoyer</button><br/>
+            </div>
+            <div>      
+                <p>Choisir sexe</p>
+                <p>
+                    Homme: <input type="radio" name="sex" /><br />
+                    Femme: <input type="radio" name="sex" />
+                </p>
+            </div>
+<!-- selecteur deroulant -->
+    <form>  
+        <select>
+            <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="php">PHP</option>
+                <option value="js">JavaScript</option>
+        </select>
+    </fieldset>
+    </form>
+    </form>
+<!-- trait de séparation horizontale -->
+    <HR ALIGN=CENTER WIDTH="1024">
+<!-- les different élement -->
+</main>
+<!-- footer -->
+<footer>
+    <p><sub>s</sub>alut pierr<sup>e</sup><strong><i> <mark>bon week end !</mark> </i></strong></q></p>
+    <p> tu ne verras pas ce que je vais faire maintenant grace a hidden
+        <p hidden>je vais faire l'apero car j'ai finie mes devoirs !!! HAahahaaaA
+</footer>
+
+</body>
+</html>
